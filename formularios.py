@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Formulário - Sucesso em Vendas", layout="centered")
 
 # Adicionar a logo no topo
-st.image("LOGO SUCESSO EM VENDAS HORIZONTAL AZUL.png", width=200)
+st.image("assets/img/LOGO SUCESSO EM VENDAS HORIZONTAL AZUL.png", width=200)
 
 # Título e descrição
 st.markdown("<h2 style='text-align: center; color: #007BFF;'>Formulário - Sucesso em Vendas</h2>", unsafe_allow_html=True)
