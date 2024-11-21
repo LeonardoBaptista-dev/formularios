@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Ambiente virtual
+env/
+venv/
+.venv/
+ENV/
+*.env
+*.venv
+*.virtualenv
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações específicas de IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/
+
+# Arquivos temporários e backups
+*.tmp
+*.bak
+*.old
+*~
+
+# Arquivos sensíveis
+*.key
+*.pem
