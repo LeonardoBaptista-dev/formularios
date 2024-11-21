@@ -12,7 +12,8 @@ st.markdown("<p style='text-align: center;'>Por favor, preencha o formulário ab
 
 # Embedding do Typeform
 typeform_embed = """
-<div data-tf-live="01JD7E0BF6RPPBPDRR8SW75P0H"></div>
+<div data-tf-live="01JD7E0BF6RPPBPDRR8SW75P0H" data-tf-hide-headers data-tf-hide-footer></div>
 <script src="//embed.typeform.com/next/embed.js"></script>
+
 """
 st.components.v1.html(typeform_embed, height=700)
